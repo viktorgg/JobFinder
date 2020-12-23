@@ -3,20 +3,20 @@ package tu.project.jobfinder.entities;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "ad" )
+@Table(name = "ad")
 public class Ad {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name="title")
+    @Column(name = "title")
     private String title;
 
-    @Column(name="description")
+    @Column(name = "description")
     private String description;
 
-    @Column(name="company_name")
+    @Column(name = "company_name")
     private String company_name;
 
     public Ad() {

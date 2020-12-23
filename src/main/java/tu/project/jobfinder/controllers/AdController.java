@@ -25,53 +25,52 @@ public class AdController {
     }
 
     @GetMapping("/id/{id}")
-    public Ad getAdById(@PathVariable Long id){
+    public Ad getAdById(@PathVariable Long id) {
         Optional<Ad> result = adRepository.findById(id);
-        return result.isPresent()? result.get() : null;
+        return result.isPresent() ? result.get() : null;
     }
 
     @GetMapping("/title/{title}")
-    public ResponseEntity<?> getAdByTitle(@PathVariable(required = false) String title){
-        if(title == null || title.isBlank()){
+    public ResponseEntity<?> getAdByTitle(@PathVariable(required = false) String title) {
+        if (title == null || title.isBlank()) {
             return ResponseEntity.ok().body("No title inserted!");
         }
         Optional<Ad> result = adRepository.findAdByTitle(title.toLowerCase());
-        return result.isPresent()? ResponseEntity.ok(result.get()) : ResponseEntity.ok("No Ad found!");
+        return result.isPresent() ? ResponseEntity.ok(result.get()) : ResponseEntity.ok("No Ad found!");
     }
 
     @PostMapping("/save")
     public ResponseEntity<?> saveAd(@RequestParam(required = false) Long id,
                                     @RequestParam(required = false) String title,
                                     @RequestParam(required = false) String description,
-                                    @RequestParam(required = false) String company_name){
+                                    @RequestParam(required = false) String company_name) {
 
-        boolean isNew=id==null;
+        boolean isNew = id == null;
 
-        Ad ad= new Ad(id,title,description,company_name);
-        ad=adRepository.save(ad);
+        Ad ad = new Ad(id, title, description, company_name);
+        ad = adRepository.save(ad);
 
-        Map<String,Object> response = new HashMap<>();
-        response.put("generatedId",ad.getId());
-        response.put("generatedTitle",ad.getTitle());
-        response.put("generatedDescription",ad.getDescription());
-        response.put("generatedCompanyName",ad.getCompany_name());
-        if(isNew){
-        response.put("message","Successfully added!"); }
-        else {
-            response.put("message","Successfully edited!");
+        Map<String, Object> response = new HashMap<>();
+        response.put("generatedId", ad.getId());
+        response.put("generatedTitle", ad.getTitle());
+        response.put("generatedDescription", ad.getDescription());
+        response.put("generatedCompanyName", ad.getCompany_name());
+        if (isNew) {
+            response.put("message", "Successfully added!");
+        } else {
+            response.put("message", "Successfully edited!");
         }
 
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<?> deleteAd(@PathVariable Long id){
+    public ResponseEntity<?> deleteAd(@PathVariable Long id) {
 
-      if(!adRepository.existsById(id))
-        {
+        if (!adRepository.existsById(id)) {
             return ResponseEntity.ok("No such Ad!");
         }
-      adRepository.deleteById(id);
+        adRepository.deleteById(id);
         return ResponseEntity.ok("Deleted successfully!");
     }
 }
