@@ -19,6 +19,16 @@ public class Ad {
     @Column(name="company_name")
     private String company_name;
 
+    public Ad() {
+    }
+
+    public Ad(Long id, String title, String description, String company_name) {
+        this.id = id;
+        this.title = title;
+        this.description = description;
+        this.company_name = company_name;
+    }
+
     public Long getId() {
         return id;
     }
