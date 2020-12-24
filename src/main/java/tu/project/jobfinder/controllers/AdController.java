@@ -24,7 +24,7 @@ public class AdController {
         return adRepository.findAll();
     }
 
-    @GetMapping("/id/{id}")
+    @GetMapping("/{id}")
     public Ad getAdById(@PathVariable Long id) {
         Optional<Ad> result = adRepository.findById(id);
         return result.isPresent() ? result.get() : null;

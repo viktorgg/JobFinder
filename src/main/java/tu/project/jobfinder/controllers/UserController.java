@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import tu.project.jobfinder.entities.User;
+import tu.project.jobfinder.entities.Users;
 import tu.project.jobfinder.repositories.UserRepository;
 
 import java.util.HashMap;
@@ -13,20 +13,20 @@ import java.util.Map;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("user")
+@RequestMapping("users")
 public class UserController {
 
     @Autowired
     UserRepository userRepository;
 
     @GetMapping("/all")
-    public List<User> getAllUsers() {
+    public List<Users> getAllUsers() {
         return userRepository.findAll();
     }
 
-    @GetMapping("/id/{id}")
-    public User getUserById(@PathVariable Long id) {
-        Optional<User> result = userRepository.findById(id);
+    @GetMapping("/{id}")
+    public Users getUserById(@PathVariable Long id) {
+        Optional<Users> result = userRepository.findById(id);
         return result.isPresent() ? result.get() : null;
     }
 
@@ -40,7 +40,7 @@ public class UserController {
 
         boolean isNew = id == null;
 
-        User user = new User(id, username, password, first_name, last_name, email);
+        Users user = new Users(id, username, password, first_name, last_name, email);
         user = userRepository.save(user);
 
         Map<String, Object> response = new HashMap<>();

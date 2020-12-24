@@ -3,8 +3,8 @@ package tu.project.jobfinder.entities;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "user")
-public class User {
+@Table(name = "users")
+public class Users {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -25,15 +25,15 @@ public class User {
     @Column(name = "email")
     private String email;
 
-    public User() {
+    public Users() {
     }
 
-    public User(Long id,
-                String username,
-                String password,
-                String first_name,
-                String last_name,
-                String email) {
+    public Users(Long id,
+                 String username,
+                 String password,
+                 String first_name,
+                 String last_name,
+                 String email) {
         this.id = id;
         this.username = username;
         this.password = password;
