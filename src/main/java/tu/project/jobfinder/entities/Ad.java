@@ -1,6 +1,8 @@
 package tu.project.jobfinder.entities;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "ad")
@@ -19,6 +21,12 @@ public class Ad {
     @Column(name = "company_name")
     private String company_name;
 
+    @ManyToMany()
+    @JoinTable(name="ad_users",
+            joinColumns = @JoinColumn(name="ad_id"),
+            inverseJoinColumns = @JoinColumn(name= "users_id"))
+    private Set<Users> users=new HashSet<>();
+
     public Ad() {
     }
 
@@ -27,6 +35,14 @@ public class Ad {
         this.title = title;
         this.description = description;
         this.company_name = company_name;
+    }
+
+    public Set<Users> getUsers() {
+        return users;
+    }
+
+    public void setUsers(Set<Users> users) {
+        this.users = users;
     }
 
     public Long getId() {
