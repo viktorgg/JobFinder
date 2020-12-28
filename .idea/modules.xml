@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/JobFinder.iml" filepath="$PROJECT_DIR$/.idea/JobFinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JobFinder.iml" filepath="$PROJECT_DIR$/JobFinder.iml" />
       <module fileurl="file://$PROJECT_DIR$/jobfinder-be/jobfinder-be.iml" filepath="$PROJECT_DIR$/jobfinder-be/jobfinder-be.iml" />
       <module fileurl="file://$PROJECT_DIR$/jobfinder-fe/jobfinder-fe.iml" filepath="$PROJECT_DIR$/jobfinder-fe/jobfinder-fe.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jobfinder-fe/spring-boot-starter-parent.iml" filepath="$PROJECT_DIR$/jobfinder-fe/spring-boot-starter-parent.iml" />
     </modules>
   </component>
 </project>

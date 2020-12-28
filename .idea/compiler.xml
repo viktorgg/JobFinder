@@ -6,17 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jobfinder-be" />
-        <module name="spring-boot-starter-parent" />
-        <module name="jobfinder-fe" />
         <module name="JobFinder" />
+        <module name="jobfinder-be" />
+        <module name="jobfinder-fe" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="JobFinder" target="C:\Users\ViktorG\Documents\JobFinder" />
+      <module name="JobFinder" target="D:\UNI\YEAR 2\SEMESTER 1\JAVA\JobFinder" />
       <module name="jobfinder-be" target="11" />
-      <module name="jobfinder-fe" target="C:\Users\ViktorG\Documents\JobFinder\jobfinder-fe" />
-      <module name="spring-boot-starter-parent" target="C:\Users\ViktorG\Documents\JobFinder\jobfinder-fe" />
+      <module name="jobfinder-fe" target="D:\UNI\YEAR 2\SEMESTER 1\JAVA\JobFinder\jobfinder-fe" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -24,7 +22,6 @@
       <module name="JobFinder" options="-parameters" />
       <module name="jobfinder-be" options="-parameters" />
       <module name="jobfinder-fe" options="-parameters" />
-      <module name="spring-boot-starter-parent" options="-parameters" />
     </option>
   </component>
 </project>
