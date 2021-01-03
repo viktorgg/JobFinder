@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JobFinder" />
-        <module name="jobfinder-be" />
         <module name="jobfinder-fe" />
+        <module name="jobfinder-be" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
