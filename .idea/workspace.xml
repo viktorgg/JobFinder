@@ -23,17 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe0866e3-9ef7-435b-a244-c8c7db31075f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/JobfinderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/JobFinderApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/controllers/AdController.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/controllers/AdController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobFinder-be/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder-be/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobfinder-fe/jobfinder-fe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/jobfinder-fe.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobfinder-fe/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobfinder-fe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/views/Ad.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/views/Ad.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,6 +96,12 @@
       <workItem from="1609585847250" duration="3046000" />
       <workItem from="1609593879540" duration="476000" />
       <workItem from="1609619246950" duration="267000" />
+      <workItem from="1609666335113" duration="145000" />
+      <workItem from="1609685874842" duration="1858000" />
+      <workItem from="1609705575083" duration="1005000" />
+      <workItem from="1609741157299" duration="675000" />
+      <workItem from="1609796970289" duration="33000" />
+      <workItem from="1609872089211" duration="1730000" />
     </task>
     <servers />
   </component>
