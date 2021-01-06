@@ -25,9 +25,6 @@
     <list default="true" id="fe0866e3-9ef7-435b-a244-c8c7db31075f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/controllers/AdController.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/controllers/AdController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobfinder-fe/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobfinder-fe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/views/Ad.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/views/Ad.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,6 +99,9 @@
       <workItem from="1609741157299" duration="675000" />
       <workItem from="1609796970289" duration="33000" />
       <workItem from="1609872089211" duration="1730000" />
+      <workItem from="1609873893982" duration="2465000" />
+      <workItem from="1609913247990" duration="2591000" />
+      <workItem from="1609918197470" duration="741000" />
     </task>
     <servers />
   </component>

@@ -12,11 +12,6 @@
   <template slot="top-row" slot-scope="{ fields }">
     <td v-for="field in fields" :key="field.id">
       <input v-model="filters[field.key]" :placeholder="field.label">
-      <tr v-for="ad in totalItems" :key="ad.id">
-        <td>{{ad.title}}</td>
-        <td>{{ad.description}}</td>
-        <td>{{ad.company_name}}</td>
-      </tr>
     </td>
   </template>
 </b-table>
@@ -54,7 +49,7 @@ export default {
     AdService.getAllAds().then(
       response => {
         console.log(response)
-        this.content = response
+        this.ads = response.data
       },
       error => {
         this.content =
@@ -63,6 +58,22 @@ export default {
           error.toString()
       }
     )
+  },
+  methods: {
+    searchAds () {
+      AdService.getAllAds(this.filters).then(
+        response => {
+          this.ads = response.data.ads
+          this.totalItems = response.data.totalItems
+        },
+        error => {
+          this.msg =
+            (error.response && error.response.data) ||
+            error.message ||
+            error.toString()
+        }
+      )
+    }
   }
 }
 </script>

@@ -19,7 +19,6 @@ public class AdController {
     @Autowired
     AdRepository adRepository;
 
-    @CrossOrigin
     @GetMapping("/all")
     public List<Ad> getAllAds() {
         return adRepository.findAll();
