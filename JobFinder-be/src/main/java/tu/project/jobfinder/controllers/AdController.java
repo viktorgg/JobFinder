@@ -1,12 +1,14 @@
 package tu.project.jobfinder.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import tu.project.jobfinder.entities.Ad;
 import tu.project.jobfinder.repositories.AdRepository;
 
+import java.awt.print.Pageable;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -29,6 +31,14 @@ public class AdController {
         Optional<Ad> result = adRepository.findById(id);
         return result.isPresent() ? result.get() : null;
     }
+
+    /*@GetMapping("/search/page")
+    public ResponseEntity<?> paginateAd(@RequestParam(value = "currentPage", defaultValue = "1") int currentPage,
+                                        @RequestParam(value = "perPage", defaultValue = "5") int perPage,
+                                        @RequestParam String lastName) {
+        Pageable pageable = PageRequest.of(currentPage - 1, perPage);
+        Page<Ad> ads = adRepository.
+    }*/
 
     @GetMapping("/title/{title}")
     public ResponseEntity<?> getAdByTitle(@PathVariable(required = false) String title) {
