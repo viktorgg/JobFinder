@@ -7,6 +7,5 @@ import java.util.Optional;
 
 public interface AdRepository extends JpaRepository<Ad, Long> {
 
-    //@Query("SELECT a FROM ad a WHERE lower(a.title) = :title")
     Optional<Ad> findAdByTitle(String title);
 }

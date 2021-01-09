@@ -1,9 +1,12 @@
 package tu.project.jobfinder.entities;
 
 import javax.persistence.*;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
-@Table(name = "users")
+@Table(name = "users", uniqueConstraints = @UniqueConstraint(columnNames = "email"))
 public class Users {
 
     @Id
@@ -24,6 +27,10 @@ public class Users {
 
     @Column(name = "email")
     private String email;
+
+    @ManyToOne()
+    @JoinColumn(name="role_id")
+    private Role role;
 
     public Users() {
     }
@@ -88,5 +95,13 @@ public class Users {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public Role getRole() {
+        return role;
+    }
+
+    public void setRole(Role role) {
+        this.role = role;
     }
 }

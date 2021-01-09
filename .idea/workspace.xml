@@ -20,14 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe0866e3-9ef7-435b-a244-c8c7db31075f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/controllers/AdController.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/controllers/AdController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/views/Ad.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/views/Ad.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/entities/Ad.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/entities/Ad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/entities/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/entities/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/repositories/AdRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/repositories/AdRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobfinder-fe/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobfinder-fe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -118,21 +132,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2193" height="332" key="GridCell.Tab.0.bottom" timestamp="1610004255562">
+    <state x="1445" y="301" key="#com.intellij.ide.util.MemberChooser" timestamp="1610193945667">
       <screen x="0" y="0" width="2234" height="1216" />
     </state>
-    <state width="2193" height="332" key="GridCell.Tab.0.bottom/0.0.2234.1216@0.0.2234.1216" timestamp="1610004255562" />
-    <state width="2193" height="332" key="GridCell.Tab.0.center" timestamp="1610004255562">
+    <state x="1445" y="301" key="#com.intellij.ide.util.MemberChooser/0.0.2234.1216@0.0.2234.1216" timestamp="1610193945667" />
+    <state width="1120" height="181" key="GridCell.Tab.0.bottom" timestamp="1610197762297">
       <screen x="0" y="0" width="2234" height="1216" />
     </state>
-    <state width="2193" height="332" key="GridCell.Tab.0.center/0.0.2234.1216@0.0.2234.1216" timestamp="1610004255562" />
-    <state width="2193" height="332" key="GridCell.Tab.0.left" timestamp="1610004255562">
+    <state width="1120" height="181" key="GridCell.Tab.0.bottom/0.0.2234.1216@0.0.2234.1216" timestamp="1610197762297" />
+    <state width="1120" height="181" key="GridCell.Tab.0.center" timestamp="1610197762297">
       <screen x="0" y="0" width="2234" height="1216" />
     </state>
-    <state width="2193" height="332" key="GridCell.Tab.0.left/0.0.2234.1216@0.0.2234.1216" timestamp="1610004255562" />
-    <state width="2193" height="332" key="GridCell.Tab.0.right" timestamp="1610004255562">
+    <state width="1120" height="181" key="GridCell.Tab.0.center/0.0.2234.1216@0.0.2234.1216" timestamp="1610197762297" />
+    <state width="1120" height="181" key="GridCell.Tab.0.left" timestamp="1610197762296">
       <screen x="0" y="0" width="2234" height="1216" />
     </state>
-    <state width="2193" height="332" key="GridCell.Tab.0.right/0.0.2234.1216@0.0.2234.1216" timestamp="1610004255562" />
+    <state width="1120" height="181" key="GridCell.Tab.0.left/0.0.2234.1216@0.0.2234.1216" timestamp="1610197762296" />
+    <state width="1120" height="181" key="GridCell.Tab.0.right" timestamp="1610197762297">
+      <screen x="0" y="0" width="2234" height="1216" />
+    </state>
+    <state width="1120" height="181" key="GridCell.Tab.0.right/0.0.2234.1216@0.0.2234.1216" timestamp="1610197762297" />
   </component>
 </project>

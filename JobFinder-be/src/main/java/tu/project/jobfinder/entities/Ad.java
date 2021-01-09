@@ -25,7 +25,7 @@ public class Ad {
     @JoinTable(name="ad_users",
             joinColumns = @JoinColumn(name="ad_id"),
             inverseJoinColumns = @JoinColumn(name= "users_id"))
-    private Set<Users> users=new HashSet<>();
+    private Set<Users> users = new HashSet<>();
 
     public Ad() {
     }
@@ -35,14 +35,6 @@ public class Ad {
         this.title = title;
         this.description = description;
         this.company_name = company_name;
-    }
-
-    public Set<Users> getUsers() {
-        return users;
-    }
-
-    public void setUsers(Set<Users> users) {
-        this.users = users;
     }
 
     public Long getId() {
@@ -75,5 +67,13 @@ public class Ad {
 
     public void setCompany_name(String company_name) {
         this.company_name = company_name;
+    }
+
+    public Set<Users> getUsers() {
+        return users;
+    }
+
+    public void setUsers(Set<Users> users) {
+        this.users = users;
     }
 }

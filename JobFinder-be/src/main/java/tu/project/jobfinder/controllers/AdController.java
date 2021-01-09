@@ -32,14 +32,6 @@ public class AdController {
         return result.isPresent() ? result.get() : null;
     }
 
-    /*@GetMapping("/search/page")
-    public ResponseEntity<?> paginateAd(@RequestParam(value = "currentPage", defaultValue = "1") int currentPage,
-                                        @RequestParam(value = "perPage", defaultValue = "5") int perPage,
-                                        @RequestParam String lastName) {
-        Pageable pageable = PageRequest.of(currentPage - 1, perPage);
-        Page<Ad> ads = adRepository.
-    }*/
-
     @GetMapping("/title/{title}")
     public ResponseEntity<?> getAdByTitle(@PathVariable(required = false) String title) {
         if (title == null || title.isBlank()) {
