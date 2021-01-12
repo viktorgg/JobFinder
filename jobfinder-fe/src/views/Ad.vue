@@ -54,23 +54,27 @@
               class="my-0"
              ></b-pagination>
           </b-col>
-  <b-table
-    striped
-    hover
-    bordered
-    :items="ads"
-    :fields="fields"
-    :filter="filter"
-    :filter-included-fields="filterOn"
-    :current-page="currentPage"
-    stacked="md"
-    :per-page="perPage"
-    show-empty
-    small
-    @filtered="onFiltered"
-  >
-  </b-table>
-</div>
+    <b-table
+      striped
+      hover
+      bordered
+      :items="ads"
+      :fields="fields"
+      :filter="filter"
+      :filter-included-fields="filterOn"
+      :current-page="currentPage"
+      stacked="md"
+      :per-page="perPage"
+      show-empty
+      small
+      @filtered="onFiltered"
+    >
+      <template v-slot:cell(ad_info)="row">
+        <router-link :to="{ name: 'AdInfo', params: { id: row.item.id } }">Info</router-link> |
+        <b-button variant="danger" v-on:click="deleteAd(row.item.id)">Delete</b-button>
+      </template>
+    </b-table>
+  </div>
 </template>
 
 <script>
@@ -96,7 +100,8 @@ export default {
       fields: [
         { key: 'title', label: 'Position' },
         { key: 'description', label: 'Description' },
-        { key: 'company_name', label: 'Employer' }
+        { key: 'company_name', label: 'Employer' },
+        { key: 'ad_info', label: 'Actions' }
       ],
       filters: {
         title: '',
@@ -123,9 +128,9 @@ export default {
       },
       error => {
         this.content =
-          (error.response && error.response.data) ||
-            error.message ||
-            error.toString()
+        (error.response && error.response.data)
+        error.message ||
+        error.toString()
       }
     )
     this.totalRows = this.items.length
@@ -134,6 +139,21 @@ export default {
     onFiltered (filteredItems) {
       this.totalRows = filteredItems.length
       this.currentPage = 1
+    },
+    deleteAd (id) {
+      AdService.deleteAd(id).then(
+        response => {
+          console.log(response)
+          this.message = response.data
+          this.searchPersons()
+        },
+        error => {
+          this.content =
+            (error.response && error.response.data) ||
+            error.message ||
+            error.toString()
+        }
+      )
     }
   }
 }

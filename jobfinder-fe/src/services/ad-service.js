@@ -6,6 +6,16 @@ class AdService {
   getAllAds () {
     return axios.get(API_URL + '/all')
   }
+
+  deleteAd (id) {
+    return axios.delete(API_URL,
+      {
+        params:
+        {
+          id: id
+        }
+      })
+  }
 }
 
 export default new AdService()
