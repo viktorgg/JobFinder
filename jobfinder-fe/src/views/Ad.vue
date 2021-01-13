@@ -121,18 +121,7 @@ export default {
   },
 
   mounted () {
-    AdService.getAllAds().then(
-      response => {
-        console.log(response)
-        this.ads = response.data
-      },
-      error => {
-        this.content =
-        (error.response && error.response.data)
-        error.message ||
-        error.toString()
-      }
-    )
+    this.getAllAds()
     this.totalRows = this.items.length
   },
   methods: {
@@ -140,12 +129,26 @@ export default {
       this.totalRows = filteredItems.length
       this.currentPage = 1
     },
+    getAllAds () {
+      AdService.getAllAds().then(
+        response => {
+          console.log(response)
+          this.ads = response.data
+        },
+        error => {
+          this.content =
+          (error.response && error.response.data)
+          error.message ||
+          error.toString()
+        }
+      )
+    },
     deleteAd (id) {
       AdService.deleteAd(id).then(
         response => {
           console.log(response)
           this.message = response.data
-          this.searchPersons()
+          this.getAllAds()
         },
         error => {
           this.content =

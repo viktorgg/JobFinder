@@ -45,7 +45,7 @@ export default {
   methods: {
     login () {
       this.isLoggingIn = true
-      setTimeout (() => {
+      setTimeout(() => {
         this.isLoggingIn = false
         this.isAlertShow = true
         setTimeout(() => this.redirect(), 1000)

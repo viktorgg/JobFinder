@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-@CrossOrigin
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("ad")
 public class AdController {
@@ -26,8 +26,8 @@ public class AdController {
         return adRepository.findAll();
     }
 
-    @GetMapping("/{id}")
-    public Ad getAdById(@PathVariable Long id) {
+    @GetMapping("/id")
+    public Ad getAdById(@RequestParam Long id) {
         Optional<Ad> result = adRepository.findById(id);
         return result.isPresent() ? result.get() : null;
     }
@@ -66,8 +66,8 @@ public class AdController {
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
-    @DeleteMapping("/{id}")
-    public ResponseEntity<?> deleteAd(@PathVariable Long id) {
+    @DeleteMapping("/id")
+    public ResponseEntity<?> deleteAd(@RequestParam Long id) {
 
         if (!adRepository.existsById(id)) {
             return ResponseEntity.ok("No such Ad!");

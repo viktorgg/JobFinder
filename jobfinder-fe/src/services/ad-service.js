@@ -7,8 +7,18 @@ class AdService {
     return axios.get(API_URL + '/all')
   }
 
+  getAdById (id) {
+    return axios.get(API_URL + '/id',
+      {
+        params:
+          {
+            id: id
+          }
+      })
+  }
+
   deleteAd (id) {
-    return axios.delete(API_URL,
+    return axios.delete(API_URL + '/id',
       {
         params:
         {

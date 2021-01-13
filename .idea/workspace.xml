@@ -1,82 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe0866e3-9ef7-435b-a244-c8c7db31075f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="9c356404-bb50-403c-b862-ed293f50ebfe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/controllers/AdController.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/controllers/AdController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/entities/Ad.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/entities/Ad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/entities/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/entities/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/repositories/AdRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/repositories/AdRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobfinder-fe/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobfinder-fe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/services/ad-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/services/ad-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/views/Ad.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/views/Ad.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/views/AdInfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/views/AdInfo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/views/Login.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1mEqAm8X99TPSMKKe9hj0flCcEe" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="1mzK9ES4apq5LQe6BFBsWVYYXEC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.JobFinderApplication">
-    <configuration name="JobFinderApplication" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tu.project.jobfinder.JobFinderApplication" />
-      <module name="jobfinder-be" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tu.project.jobfinder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,68 +59,21 @@
       </method>
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fe0866e3-9ef7-435b-a244-c8c7db31075f" name="Default Changelist" comment="" />
-      <created>1609068957869</created>
+      <changelist id="9c356404-bb50-403c-b862-ed293f50ebfe" name="Default Changelist" comment="" />
+      <created>1610490829515</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1609068957869</updated>
-      <workItem from="1609585790181" duration="48000" />
-      <workItem from="1609585847250" duration="3046000" />
-      <workItem from="1609593879540" duration="476000" />
-      <workItem from="1609619246950" duration="267000" />
-      <workItem from="1609666335113" duration="145000" />
-      <workItem from="1609685874842" duration="1858000" />
-      <workItem from="1609705575083" duration="1005000" />
-      <workItem from="1609741157299" duration="675000" />
-      <workItem from="1609796970289" duration="33000" />
-      <workItem from="1609872089211" duration="1730000" />
-      <workItem from="1609873893982" duration="2465000" />
-      <workItem from="1609913247990" duration="2591000" />
-      <workItem from="1609918197470" duration="741000" />
+      <updated>1610490829515</updated>
+      <workItem from="1610490832779" duration="1387000" />
+      <workItem from="1610492772657" duration="303000" />
+      <workItem from="1610517458822" duration="4068000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1445" y="301" key="#com.intellij.ide.util.MemberChooser" timestamp="1610193945667">
-      <screen x="0" y="0" width="2234" height="1216" />
-    </state>
-    <state x="1445" y="301" key="#com.intellij.ide.util.MemberChooser/0.0.2234.1216@0.0.2234.1216" timestamp="1610193945667" />
-    <state width="1120" height="181" key="GridCell.Tab.0.bottom" timestamp="1610197762297">
-      <screen x="0" y="0" width="2234" height="1216" />
-    </state>
-    <state width="1120" height="181" key="GridCell.Tab.0.bottom/0.0.2234.1216@0.0.2234.1216" timestamp="1610197762297" />
-    <state width="1120" height="181" key="GridCell.Tab.0.center" timestamp="1610197762297">
-      <screen x="0" y="0" width="2234" height="1216" />
-    </state>
-    <state width="1120" height="181" key="GridCell.Tab.0.center/0.0.2234.1216@0.0.2234.1216" timestamp="1610197762297" />
-    <state width="1120" height="181" key="GridCell.Tab.0.left" timestamp="1610197762296">
-      <screen x="0" y="0" width="2234" height="1216" />
-    </state>
-    <state width="1120" height="181" key="GridCell.Tab.0.left/0.0.2234.1216@0.0.2234.1216" timestamp="1610197762296" />
-    <state width="1120" height="181" key="GridCell.Tab.0.right" timestamp="1610197762297">
-      <screen x="0" y="0" width="2234" height="1216" />
-    </state>
-    <state width="1120" height="181" key="GridCell.Tab.0.right/0.0.2234.1216@0.0.2234.1216" timestamp="1610197762297" />
   </component>
 </project>
