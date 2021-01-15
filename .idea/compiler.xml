@@ -7,14 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JobFinder" />
-        <module name="jobfinder-fe" />
         <module name="jobfinder-be" />
+        <module name="jobfinder-fe" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="JobFinder" target="D:\UNI\YEAR 2\SEMESTER 1\JAVA\JobFinder" />
+      <module name="JobFinder" target="C:\Users\staso\IdeaProjects\JobFinder" />
       <module name="jobfinder-be" target="11" />
-      <module name="jobfinder-fe" target="D:\UNI\YEAR 2\SEMESTER 1\JAVA\JobFinder\jobfinder-fe" />
+      <module name="jobfinder-fe" target="C:\Users\staso\IdeaProjects\JobFinder\jobfinder-fe" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

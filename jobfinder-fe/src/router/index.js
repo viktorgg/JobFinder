@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import Ad from '../views/Ad.vue'
 import Login from '../views/Login.vue'
 import AdInfo from '../views/AdInfo.vue'
+import AddAd from '../views/AddAd.vue'
 
 Vue.use(VueRouter)
 
@@ -27,6 +28,11 @@ const routes = [
     path: '/adInfo',
     name: 'AdInfo',
     component: AdInfo
+  },
+  {
+    path: '/AddAd',
+    name: 'AddAd',
+    component: AddAd
   },
   {
     path: '/about',
