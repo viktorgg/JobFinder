@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c356404-bb50-403c-b862-ed293f50ebfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="9c356404-bb50-403c-b862-ed293f50ebfe" name="Default Changelist" comment="Add a page for adding ads (AddAd)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobfinder-fe/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/services/ad-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/services/ad-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/views/AddAd.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/views/AddAd.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="14298b1da5648438e8c199e92e7628c6ebbb149d" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,20 +49,7 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.AdInfo.vue">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.JobFinderApplication">
     <configuration name="AdInfo.vue" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JobFinder/jobfinder-fe/src/views/AdInfo.vue" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -76,10 +60,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Spring Boot.JobFinderApplication" />
-      <item itemvalue="JavaScript Debug.AdInfo.vue" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.AdInfo.vue" />
@@ -97,8 +77,17 @@
       <workItem from="1610490832779" duration="1387000" />
       <workItem from="1610492772657" duration="303000" />
       <workItem from="1610517458822" duration="4068000" />
-      <workItem from="1610721283114" duration="8760000" />
+      <workItem from="1610721283114" duration="9021000" />
+      <workItem from="1610733283352" duration="2537000" />
     </task>
+    <task id="LOCAL-00001" summary="Add a page for adding ads (AddAd)">
+      <created>1610732648278</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610732648278</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,5 +104,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add a page for adding ads (AddAd)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a page for adding ads (AddAd)" />
   </component>
 </project>

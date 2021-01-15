@@ -1,7 +1,3 @@
-import axios from 'axios'
-
-const API_URL = 'http://localhost:8081/ad/'
-
 <template>
   <div>
     <b-form @submit="onSubmit" @reset="onReset" v-if="show">
@@ -46,25 +42,28 @@ const API_URL = 'http://localhost:8081/ad/'
 </template>
 
 <script>
+import axios from 'axios'
 
+const API_URL = 'http://localhost:8081/ad/'
 
 export default {
-  name: "AddAd",
-  return: {
-    form: {
-      id: '',
-      tittle: '',
-      company_name: '',
-      description: '',
+  name: 'AddAd',
+    data() {
+      return {
+        form: {
+          id: '',
+          tittle: '',
+          company_name: '',
+          description: ''
+        },
+      }
     },
-  },
   methods: {
-    onSubmit(event) {
+    onSubmit (event) {
       event.preventDefault()
-      axios.post(API_URL + "save", form)
+      axios.post(API_URL + 'save', this.form)
     },
-
-    onReset(event) {
+    onReset (event) {
       event.preventDefault()
       // Reset our form values
       this.form.tittle = ''
@@ -81,5 +80,4 @@ export default {
 </script>
 
 <style scoped>
-
 </style>
