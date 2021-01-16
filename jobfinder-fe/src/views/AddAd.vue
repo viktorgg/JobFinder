@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-form @submit="onSubmit" @reset="onReset" >
+    <b-form @submit="SaveAdDB" @reset="onReset" >
       <b-form-group
         id="tittle-group"
         label="Title:"
@@ -33,16 +33,14 @@
         ></b-form-input>
       </b-form-group>
 
-      <b-button type="submit" variant="primary">Submit your ad</b-button>
+      <b-button type="submit" variant="primary">Submit your ad</b-button> |
       <b-button type="reset" variant="danger">Reset</b-button>
     </b-form>
   </div>
 </template>
 
 <script>
-import axios from 'axios'
-
-const API_URL = 'http://localhost:8081/ad/'
+import AdService from '../services/ad-service'
 
 export default {
   name: 'AddAd',
@@ -57,20 +55,31 @@ export default {
     }
   },
   methods: {
-    onSubmit (event) {
-      event.preventDefault()
-      axios.post(API_URL + 'save', this.form)
-    },
-    onReset (event) {
-      event.preventDefault()
-      // Reset our form values
-      this.form.tittle = ''
-      this.form.company_name = ''
-      this.form.description = ''
+    SaveAdDB () {
+      AdService.SaveAdDB(this.ad).then(
+        response => {
+          console.log(response)
+          this.ad = response.data.ad
+          this.message = response.data.message
+        },
+        error => {
+          error.message =
+              error.data.message.toString() ||
+              error.message ||
+              (error.response && error.response.data)
+        }
+      )
     }
+  },
+  onReset (event) {
+    event.preventDefault()
+    // Reset our form values
+    this.form.tittle = ''
+    this.form.company_name = ''
+    this.form.description = ''
   }
 }
-</script>
 
+</script>
 <style scoped>
 </style>

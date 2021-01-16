@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9c356404-bb50-403c-b862-ed293f50ebfe" name="Default Changelist" comment="Add a page for adding ads (AddAd)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/views/Ad.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/views/Ad.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobfinder-fe/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobfinder-fe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/views/AddAd.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/views/AddAd.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +21,9 @@
         <option value="Vue Single File Component" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="origin/Temporary_for_FE" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -54,6 +58,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Spring Boot.JobFinderApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdInfo.vue" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JobFinder/jobfinder-fe/src/views/AdInfo.vue" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -83,7 +98,10 @@
       <workItem from="1610517458822" duration="4068000" />
       <workItem from="1610721283114" duration="9021000" />
       <workItem from="1610733283352" duration="2591000" />
-      <workItem from="1610744212240" duration="1369000" />
+      <workItem from="1610744212240" duration="2776000" />
+      <workItem from="1610808629119" duration="1524000" />
+      <workItem from="1610811918454" duration="51000" />
+      <workItem from="1610812445072" duration="919000" />
     </task>
     <task id="LOCAL-00001" summary="Add a page for adding ads (AddAd)">
       <created>1610732648278</created>
@@ -99,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610736944604</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="More minor bugfixes">
+      <created>1610745642666</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610745642666</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +145,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add a page for adding ads (AddAd)" />
     <MESSAGE value="minor bugfixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor bugfixes" />
+    <MESSAGE value="More minor bugfixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="More minor bugfixes" />
   </component>
 </project>
