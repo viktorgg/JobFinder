@@ -121,30 +121,4 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="1072" y="263" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610720785246">
-      <screen x="0" y="0" width="2234" height="1216" />
-    </state>
-    <state x="1072" y="263" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2234.1216@0.0.2234.1216" timestamp="1610720785246" />
-    <state x="1408" y="287" key="#com.intellij.ide.util.MemberChooser" timestamp="1610887433321">
-      <screen x="0" y="0" width="2234" height="1216" />
-    </state>
-    <state x="1408" y="287" key="#com.intellij.ide.util.MemberChooser/0.0.2234.1216@0.0.2234.1216" timestamp="1610887433321" />
-    <state width="1200" height="275" key="GridCell.Tab.0.bottom" timestamp="1610898107579">
-      <screen x="0" y="0" width="2234" height="1216" />
-    </state>
-    <state width="1200" height="275" key="GridCell.Tab.0.bottom/0.0.2234.1216@0.0.2234.1216" timestamp="1610898107579" />
-    <state width="1200" height="275" key="GridCell.Tab.0.center" timestamp="1610898107579">
-      <screen x="0" y="0" width="2234" height="1216" />
-    </state>
-    <state width="1200" height="275" key="GridCell.Tab.0.center/0.0.2234.1216@0.0.2234.1216" timestamp="1610898107579" />
-    <state width="1200" height="275" key="GridCell.Tab.0.left" timestamp="1610898107579">
-      <screen x="0" y="0" width="2234" height="1216" />
-    </state>
-    <state width="1200" height="275" key="GridCell.Tab.0.left/0.0.2234.1216@0.0.2234.1216" timestamp="1610898107579" />
-    <state width="1200" height="275" key="GridCell.Tab.0.right" timestamp="1610898107579">
-      <screen x="0" y="0" width="2234" height="1216" />
-    </state>
-    <state width="1200" height="275" key="GridCell.Tab.0.right/0.0.2234.1216@0.0.2234.1216" timestamp="1610898107579" />
-  </component>
 </project>

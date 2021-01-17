@@ -11,7 +11,6 @@
   JobFinder is developed by a brilliant team of IT specialists from the Technical University of Sofia,Bulgaria.
 
 </p>
-
 <p>
   <img src=".\asparuhviktor.jpg">
   <img src=".\iliqn.jpg">
