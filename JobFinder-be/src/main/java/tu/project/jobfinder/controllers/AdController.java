@@ -41,8 +41,23 @@ public class AdController {
         return result.isPresent() ? ResponseEntity.ok(result.get()) : ResponseEntity.ok("No Ad found!");
     }
 
+    @PostMapping("/save/ad")
+    public ResponseEntity<?> saveAd(@RequestBody Ad form) {
+        boolean isNew = form.getId() == null;
+
+        Map<String, Object> response = new HashMap<>();
+        response.put("ad", adRepository.save(form));
+        if(isNew) {
+            response.put("message", "Ad saved!");
+        } else {
+            response.put("message", "Ad edited!");
+        }
+
+        return new ResponseEntity<>(response, HttpStatus.OK);
+    }
+
     @PostMapping("/save")
-    public ResponseEntity<?> saveAd(@RequestParam(required = false) Long id,
+    public ResponseEntity<?> saveOrUpdate(@RequestParam(required = false) Long id,
                                     @RequestParam(required = false) String title,
                                     @RequestParam(required = false) String description,
                                     @RequestParam(required = false) String company_name) {

@@ -1,5 +1,17 @@
 <template>
   <div>
+   <div class="form-check">
+     <input @click='roleToggle = true' class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+     <label class="form-check-label" for="flexRadioDefault1">
+       Employer role
+     </label>
+   </div>
+   <div class="form-check">
+     <input @click='roleToggle = false' class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+     <label class="form-check-label" for="flexRadioDefault2">
+       Employee role
+     </label>
+   </div>
    <b-col lg="6" class="my-1">
           <b-form-group
             label="Filter"
@@ -70,10 +82,11 @@
       @filtered="onFiltered"
     >
       <template v-slot:cell(ad_info)="row">
-        <router-link :to="{ name: 'AdInfo', params: { id: row.item.id } }">Info</router-link> |
-        <b-button variant="danger" v-on:click="deleteAd(row.item.id)">Delete</b-button>
+        <b-button variant="success" v-on:click="$router.push({name:'AdInfo', params:{id:row.item.id} } )">Info</b-button>
+        <b-button v-show='roleToggle' variant="danger" v-on:click="deleteAd(row.item.id)">Delete</b-button>
       </template>
     </b-table>
+    <b-button v-show='roleToggle' block variant="primary"  v-on:click="$router.push('AddAd')">Submit your own add</b-button>
   </div>
 </template>
 
@@ -85,6 +98,7 @@ export default {
   data () {
     return {
       msg: '',
+      roleToggle: false,
       totalItems: '',
       totalRows: 1,
       currentPage: 1,
