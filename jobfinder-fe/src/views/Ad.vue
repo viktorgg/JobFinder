@@ -82,10 +82,11 @@
       @filtered="onFiltered"
     >
       <template v-slot:cell(ad_info)="row">
-        <router-link :to="{ name: 'AdInfo', params: { id: row.item.id } }">Info</router-link> |
+        <b-button variant="success" v-on:click="$router.push({name:'AdInfo', params:{id:row.item.id} } )">Info</b-button>
         <b-button v-show='roleToggle' variant="danger" v-on:click="deleteAd(row.item.id)">Delete</b-button>
       </template>
     </b-table>
+    <b-button v-show='roleToggle' block variant="primary"  v-on:click="$router.push('AddAd')">Submit your own add</b-button>
   </div>
 </template>
 

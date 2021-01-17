@@ -24,23 +24,37 @@ public class UserController {
         return userRepository.findAll();
     }
 
-    @GetMapping("/{id}")
-    public Users getUserById(@PathVariable Long id) {
+    @GetMapping("/id")
+    public Users getUserById(@RequestParam Long id) {
         Optional<Users> result = userRepository.findById(id);
         return result.isPresent() ? result.get() : null;
     }
 
+    @PostMapping("/save/user")
+    public ResponseEntity<?> saveUser(@RequestBody Users form) {
+        boolean isNew = form.getId() == null;
+
+        Map<String, Object> response = new HashMap<>();
+        response.put("user", userRepository.save(form));
+        if(isNew) {
+            response.put("message", "User saved!");
+            response.put("message", "User edited!");
+        }
+
+        return new ResponseEntity<>(response, HttpStatus.OK);
+    }
+
     @PostMapping("/save")
-    public ResponseEntity<?> saveUser(@RequestParam(required = false) Long id,
+    public ResponseEntity<?> saveOrUpdate(@RequestParam(required = false) Long id,
                                       @RequestParam(required = false) String username,
                                       @RequestParam(required = false) String password,
-                                      @RequestParam(required = false) String first_name,
-                                      @RequestParam(required = false) String last_name,
+                                      @RequestParam(required = false) String firstName,
+                                      @RequestParam(required = false) String lastName,
                                       @RequestParam(required = false) String email) {
 
         boolean isNew = id == null;
 
-        Users user = new Users(id, username, password, first_name, last_name, email);
+        Users user = new Users(id, username, password, firstName, lastName, email);
         user = userRepository.save(user);
 
         Map<String, Object> response = new HashMap<>();

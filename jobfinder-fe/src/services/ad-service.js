@@ -26,6 +26,16 @@ class AdService {
         }
       })
   }
+
+  saveAdDB (form) {
+    return axios.post(API_URL + '/save/ad',
+      {
+        title: form.title,
+        description: form.description,
+        company_name: form.company_name,
+        id: form.id
+      })
+  }
 }
 
 export default new AdService()
