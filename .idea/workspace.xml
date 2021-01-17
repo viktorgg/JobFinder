@@ -20,14 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c356404-bb50-403c-b862-ed293f50ebfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jobfinder-fe/src/views/Registration.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/JobFinderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder-be/src/main/java/tu/project/jobfinder/JobFinderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobfinder-fe/jobfinder-fe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/jobfinder-fe.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobfinder-fe/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobfinder-fe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/views/Ad.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jobfinder-fe/src/views/Ad.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobfinder-fe/src/views/Login.vue" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +35,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mzK9ES4apq5LQe6BFBsWVYYXEC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -130,21 +130,21 @@
       <screen x="0" y="0" width="2234" height="1216" />
     </state>
     <state x="1072" y="263" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2234.1216@0.0.2234.1216" timestamp="1610720785246" />
-    <state width="1186" height="227" key="GridCell.Tab.0.bottom" timestamp="1610793673313">
+    <state width="1187" height="226" key="GridCell.Tab.0.bottom" timestamp="1610870081824">
       <screen x="0" y="0" width="2234" height="1216" />
     </state>
-    <state width="1186" height="227" key="GridCell.Tab.0.bottom/0.0.2234.1216@0.0.2234.1216" timestamp="1610793673313" />
-    <state width="1186" height="227" key="GridCell.Tab.0.center" timestamp="1610793673312">
+    <state width="1187" height="226" key="GridCell.Tab.0.bottom/0.0.2234.1216@0.0.2234.1216" timestamp="1610870081824" />
+    <state width="1187" height="226" key="GridCell.Tab.0.center" timestamp="1610870081824">
       <screen x="0" y="0" width="2234" height="1216" />
     </state>
-    <state width="1186" height="227" key="GridCell.Tab.0.center/0.0.2234.1216@0.0.2234.1216" timestamp="1610793673312" />
-    <state width="1186" height="227" key="GridCell.Tab.0.left" timestamp="1610793673312">
+    <state width="1187" height="226" key="GridCell.Tab.0.center/0.0.2234.1216@0.0.2234.1216" timestamp="1610870081824" />
+    <state width="1187" height="226" key="GridCell.Tab.0.left" timestamp="1610870081823">
       <screen x="0" y="0" width="2234" height="1216" />
     </state>
-    <state width="1186" height="227" key="GridCell.Tab.0.left/0.0.2234.1216@0.0.2234.1216" timestamp="1610793673312" />
-    <state width="1186" height="227" key="GridCell.Tab.0.right" timestamp="1610793673313">
+    <state width="1187" height="226" key="GridCell.Tab.0.left/0.0.2234.1216@0.0.2234.1216" timestamp="1610870081823" />
+    <state width="1187" height="226" key="GridCell.Tab.0.right" timestamp="1610870081824">
       <screen x="0" y="0" width="2234" height="1216" />
     </state>
-    <state width="1186" height="227" key="GridCell.Tab.0.right/0.0.2234.1216@0.0.2234.1216" timestamp="1610793673313" />
+    <state width="1187" height="226" key="GridCell.Tab.0.right/0.0.2234.1216@0.0.2234.1216" timestamp="1610870081824" />
   </component>
 </project>
